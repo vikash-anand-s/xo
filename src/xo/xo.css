@@ -1,0 +1,113 @@
+body{
+    font-family: "Source Sans Pro", sans-serif;
+    background: #50a3a2;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: xx-large;
+    margin: -6px auto 30px;
+    display: inline-block;
+    background-color: black;
+    color: #d4e054;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.container {
+    margin: 25% auto 10%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 380px;
+}
+
+td {
+    font-size: xx-large;
+    height: 100px;
+    width: 100px;
+    border: 20px solid #50a3a2;
+    background-color: black;
+    color: #50a3a2;
+    text-align: center;
+}
+
+.result {
+    font-size: large;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+button {
+    border: 2px solid black;
+    padding: 10px 15px;
+    font-size: large;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 2px solid black;
+    padding: 10px 15px;
+    font-size: large;
+    margin: 20px auto;
+    background-color: black;
+    color: #50a3a2;
+    border-radius: 5px;
+}
+
+@media (max-width: 400px){
+    table {
+        border-collapse: collapse;
+        width: 250px;
+    }
+
+    td {
+        font-size: x-large;
+        height: 70px;
+        width: 70px;
+        border: 10px solid #50a3a2;
+        background-color: black;
+        color: #50a3a2;
+        text-align: center;
+    }
+}
+
+@media (max-width: 350px){
+    h1 {
+        font-size: x-large;
+        margin: -6px auto 30px;
+        display: inline-block;
+        background-color: black;
+        color: #d4e054;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 190px;
+    }
+
+    td {
+        font-size: large;
+        height: 50px;
+        width: 50px;
+        border: 10px solid #50a3a2;
+        background-color: black;
+        color: #50a3a2;
+        text-align: center;
+    }
+}
