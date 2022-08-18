@@ -111,3 +111,7 @@ button:hover {
         text-align: center;
     }
 }
+
+.footer {
+    padding: 40px;
+}

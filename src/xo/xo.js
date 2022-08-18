@@ -111,7 +111,9 @@ function XO() {
             </div>
 
             {winner && (<button onClick={() => handleRestart()}>PLAY AGAIN</button>)}
-
+        
+            <p className="footer">Developed by Vikash Anand S</p>
+  
         </div>
         
     );
